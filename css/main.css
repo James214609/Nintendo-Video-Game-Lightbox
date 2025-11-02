@@ -1,0 +1,83 @@
+.hidden {
+    display: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(230, 0, 18);
+    color: white;
+}
+
+header {
+    background-color: rgb(230, 0, 18);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#Nintendo-logo{
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+
+#game-nav {
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-size: cover;
+}
+
+#games {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#games li {
+    display: inline;
+    margin: 10px;
+}
+
+#games li img {
+    border: solid 1px silver;
+    padding: 5px;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0 rgba(255, 255, 255, 0.9);
+    transition: all .5s ease-in-out;
+}
+
+#games li a {
+    text-decoration: none;
+}
+
+#games li img:hover {
+    
+    filter: grayscale(100%);
+    border-radius: 50%;
+}
+
+#Instructions {
+    padding: 20px;
+    background-color: silver;
+}
+
+#Instructions h3 {
+    font-size: 32px;
+    text-align: center;
+    color:black;
+}
+
+#Instructions p {
+    font-size: 10px;
+    text-align: center;
+    color: black;
+}
+
+#main-footer {
+    height: 80px;
+    background-color: rgb(238, 0, 18);
+    padding: 20px 0;
+    text-align: center;
+}
