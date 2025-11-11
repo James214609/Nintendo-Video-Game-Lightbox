@@ -1,3 +1,3 @@
 # Nintendo-Video-Game-Lightbox
 
-This is a project that involes creating a lightbox page using a template that was worked on in class from Professor Marco. We can do whatever theme we want, but we cannot do Marvel superheroes, since we did that in class.
+This is a project that involes creating a lightbox page using a template that was worked on in class from Professor Marco. We can do whatever theme we want, but we cannot do Marvel superheroes, since we did that in class. For the assignment, I decided to do Nintendo video game franchises. All of the icons on the main page were sceatch-built in Photopea. All the images on the lightboxes were custom sized while maintaining the same file size. I chose six different Nintendo game series: Super Mario Brothers, The Legend of Zelda, Animal Crossing, Splatoon, Pikmin, and Kirby. 
