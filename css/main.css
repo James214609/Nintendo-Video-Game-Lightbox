@@ -81,3 +81,80 @@ header {
     padding: 20px 0;
     text-align: center;
 }
+
+.lightbox {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: none;
+    background-repeat: no-repeat;
+}
+
+.lightbox:target {
+    display: block;
+}
+
+#lightbox1 {
+    background-image: url(../images/Mario_LB.png);
+    background-size: 75vh;
+    background-position: 40px bottom;
+}
+
+#lightbox2 {
+    background-image: url(../images/Link_LB.png);
+}
+
+#lightbox3 {
+    background-image: url(../images/Animal_Crossing_LB.png);
+    background-size: 55vh;
+    background-position: 40px bottom;
+}
+
+#lightbox4 {
+    background-image: url(../images/Splatoon_LB.png);
+    background-size: 100vh;
+    background-position: 40px bottom;
+}
+
+#lightbox5 {
+    background-image: url(../images/Pikmin_LB.png);
+    background-size: 95vw;
+    background-position: 40px bottom;
+}
+
+#lightbox6 {
+    background-image: url(../images/Kirby_LB.png);background-size: 95vh;
+    background-position: 40px bottom;
+    background-size: 75vh;
+}
+
+.lightbox-close {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 95vw;
+    transition: all .5s ease-in-out;
+}
+
+.lightbox-close:hover {
+    color: red;
+}
+
+.lightbox section {
+    width: 600px;
+    margin-left: 40%;
+    margin-top: 50px
+}
+
+.lb-heading {
+    font-size: 30px;
+}
+
+.lightbox p {
+    line-height: 22px;
+}
